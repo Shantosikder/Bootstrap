@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registation form</title>
+    <style>
+     	*{
+			margin: 0px;
+			padding: 0px;
+			outline: 0px;
+		}
+		body{
+			width: 30%;
+			margin: 120px auto;
+			padding: 15px;
+			border: 7px solid rgba(0, 255, 128, 0.26) ;
+            border-radius: 15px;
+		}
+		form>div{
+			padding: 10px;
+		}
+		input[type=text] {
+		  	width: 100%;
+		  	box-sizing: border-box;
+		 	border: 2px solid #ccc;
+		  	border-radius: 4px;
+		  	font-size: 16px;
+		  	background-color: white;
+		  	background-image: url('searchicon.png');
+		  	background-position: 10px 10px; 
+		  	background-repeat: no-repeat;
+		  	padding: 10px 12px 10px 12px;
+		  	transition: width 0.4s ease-in-out;
+		}
+        button{
+            padding: 10px;
+            color: #000;
+            font-size: 12px;
+            border: 2px solid springgreen;
+        }
+        button:hover{
+            background-color: darkblue;
+            transition: 00.4s;
+            color: #ffff;
+            
+        }
+    </style>
+</head>
+<body style="padding: 30px;">
+    
+   <form action="" method="post" style="background-color: rgb(180, 217, 231);">
+       <h1 style="text-align: center; background: rgb(0, 127, 231); color: #fff;">Registation</h1>
+       <div>
+        <label for="">Fristname*</label>
+        <input type="text" id="fname" placeholder="enter your name">
+       </div>
+       <div>
+        <label for="">Lastname</label>
+        <input type="text" id="lname" placeholder="enter your last name">
+       </div>
+       <div>
+           <label for="">Email*</label><br>
+           <input type="email" id="email" placeholder="enter your email">
+       </div>
+       <div>
+           <label for="">Password*</label><br>
+           <input type="password" id="password" placeholder="enter your password"  required>
+       </div>
+       <div>
+           <label for="">Confirm password*</label> <br>
+           <input type="password" id="pass" placeholder="enter your confirmpass">
+       </div>
+       <div>
+           <label for="gender">Gender:</label><br>
+           <input type="radio" name="gender"><label for="gender">Male</label>
+           <input type="radio" name="gender"><label for="gender">Female</label>
+       </div>
+       <div>
+           <label for="age">Age</label><br>
+           <input type="number">
+       </div>
+       <div>
+           <button type="submit">SUBMIT</button>
+       </div>
+       
+   </form>
+    
+</body>
+</html>

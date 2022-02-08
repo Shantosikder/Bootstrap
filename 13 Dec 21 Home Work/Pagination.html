@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style>
+    .breadcrumb>li+li:before{
+ /*   padding: 0 5px;
+    color: #ccc;*/
+    content: ">\00a0";
+    color: green;
+    font-size: 5px;
+}
+  </style>
+
+</head>
+<body>
+
+<div class="container">
+  <h1>pagination:</h1>
+
+  <ul class="pagination pagination-lg">
+    <li class="active"><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li class="disabled"><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+  </ul>
+<br>
+  <ul class="pagination pagination-sm">
+    <li class="active"><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li class="disabled"><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+  </ul>
+  <br>
+  <ul class="pagination pagination-xm">
+    <li class="active"><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li class="disabled"><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+  </ul>
+
+ <h1>Breadcrumbs:</h1>
+  <ul class="breadcrumb pagination-lg">
+    <li><a href="">Home</a></li>
+    <li><a href="">Electronics</a></li>
+    <li><a href="">Mobile</a></li>
+    <li  class="active">Assecories</li> 
+  </ul>
+
+</div>
+
+</body>
+</html>

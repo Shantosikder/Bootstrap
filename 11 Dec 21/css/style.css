@@ -1,0 +1,22 @@
+.row{
+	background-color: red;
+}
+.services1{
+	border: 2px solid #000;
+	border-widt: 5px 10px 5px 10px;
+	border-color: #201B1B;
+	border-style: solid;
+}
+.services2{
+	border: 2px solid #000;
+	border-widt: 5px 10px 5px 10px;
+	border-color: #201B1B;
+	border-style: solid;
+}
+.services3{
+		border: 2px solid #000;
+	border-widt: 5px 10px 5px 10px;
+	border-color: #201B1B;
+	border-style: solid;
+}
+

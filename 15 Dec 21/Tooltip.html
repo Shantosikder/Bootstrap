@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Modal Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h1>Tooltip plugin:</h1>
+
+  <a href="https://google.com" data-toggle="Tooltip" title="This is Google site">www.google.com</a>
+
+  <script>
+    $(document).ready(function(){
+      $('[data-toggle="Tooltip"]').tooltip();
+    });
+  </script>
+
+  <!-------tooltip end---------->
+
+   <h1>popover plugin:</h1>
+
+   <a href="#" title="title message" data-content="somae more message can be show here as description" data-toggle="popover">YAHOO</a>
+
+   <script>
+    $(document).ready(function(){
+      $('[data-toggle="popover"]').popover();
+    });
+  </script>
+
+  <!---------popover end------------>
+
+</div>
+
+</body>
+</html>

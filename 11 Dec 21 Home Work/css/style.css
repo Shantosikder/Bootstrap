@@ -1,0 +1,34 @@
+.home{
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    border: 5px dotted red;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.home-1{
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+}
+.services{
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    border: 5px dotted red;
+}
+.Contact{
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    border: 5px dotted red;
+}
+.gallary{
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    border: 5px dotted red;
+}
+
